@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+.btn-check:focus + .btn, .btn:focus {
+    outline: 0;
+    box-shadow: none !important;
+}
+.cursor{
+    cursor: pointer;
+}
+a, a:hover {
+    text-decoration: none !important;
+}
+.form-control:focus, select:focus {
+    box-shadow: none !important;
+}
+.form-select:focus, .dataTable-selector:focus {
+    border-color: #ced4da;
+}
+
